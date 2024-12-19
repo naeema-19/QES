@@ -11,6 +11,7 @@ import Contact from './Components/Contact'
 import Blog from './Components/Blog'
 import Footer from './Components/Footer'
 import HeroSection from './Components/HeroSection'
+import VisionMission from './Components/VisionMission'
 
 const App = () => {
 
@@ -32,8 +33,9 @@ const App = () => {
         <Nav nav={nav}/>
         <HeroSection />
         <About />
-        <Services />
+        <VisionMission />
         <Client />
+        <Services />
         <Gallery />
         <TeamMembers />
         <Offer />

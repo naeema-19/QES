@@ -1,6 +1,6 @@
 import React from 'react'
 import { footer } from '../Data/Data'
-import logo from "../assets/logo-2.png"
+import logo from "../assets/qes-logo.png"
 
 import {BiLogoFacebook} from "react-icons/bi"
 import {BsTwitter} from "react-icons/bs"
@@ -31,8 +31,7 @@ const Footer = ({nav}) => {
 
         <div>
           <a href="#home" className=' font-semibold text-5xl flex items-center gap-1 text-white'>
-            <img src={logo} alt="logo" width={60} height={60}/>
-            FITNESS
+            <img src={logo} alt="logo" width={60}/>
           </a>
 
           <p className=' mt-5 font text-start'>
@@ -49,7 +48,7 @@ const Footer = ({nav}) => {
       </div>
 
       <div className=' border-t border-[#3e3e3e] max-container pt-10 pb-16 text-[#c4c4c4] text-center px-4'>
-        <p className=' font'>Copyright &copy;{date} All rights reserved | This template is made by <a className='font text-[red]' href="https://vijayaragavendran.netlify.app/">Vijayaragavendran</a></p>
+        <p className=' font'>Copyright &copy;{date} <a className='font text-[red]' href="https://vijayaragavendran.netlify.app/">QES</a>, All rights reserved</p>
       </div>
     </section>
   )

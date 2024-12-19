@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       backgroundImage:{
         'hero-pattern':
-        "linear-gradient(to right bottom, rgba(0, 0, 0, .9), rgba(43, 108, 176, 0.3)), url('assets/img-1.jpg')",
+        "radial-gradient(circle, rgba(255, 69, 0, 0.5) 30%, rgba(0, 0, 0, 0.7) 70%), url('assets/qurum_energy_services_cover.jpg')",
 
         'service-pattern':
         "linear-gradient(to right bottom, rgba(0, 0, 0, .9), rgba(43, 108, 176, 0.9)), url('assets/img-5.jpg')",

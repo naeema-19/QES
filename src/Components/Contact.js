@@ -10,7 +10,7 @@ const Contact = () => {
         </div>
 
         <div className=' px-5 max-lg:px-0'>
-          <p className='w-fit text-[#f04e3c] relative before:absolute before:w-20 before:h-1 before:bg-[#f04e3c] before:top-[50%] before:left-0 pl-24 text-2xl before:translate-y-[-50%] '>CONTACT FORM</p>
+          <p className='w-fit text-[#376c35] relative before:absolute before:w-20 before:h-1 before:bg-[#376c35] before:top-[50%] before:left-0 pl-24 text-2xl before:translate-y-[-50%] '>CONTACT FORM</p>
 
         <div className='text-5xl font-semibold leading-[70px] mt-5 mb-20 max-xl:leading-[50px] max-xl:mb-10 max-sm:text-3xl'>
           <h1>FEEL FREE TO CONTACT</h1>

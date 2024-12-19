@@ -5,7 +5,7 @@ const Blog = () => {
   return (
     <section id='blog' className=' w-full'>
       <div className=' max-container padding-hero-y padding-x'>
-        <p className=' text-[#f04e3c] relative before:absolute before:w-20 before:h-1 before:bg-[#f04e3c] before:top-[50%] before:left-0 pl-24 text-2xl before:translate-y-[-50%] text-center w-fit m-auto max-sm:before:w-16 max-sm:pl-20'>RECENT NEWS FORM BLOG</p>
+        <p className=' text-[#376c35] relative before:absolute before:w-20 before:h-1 before:bg-[#376c35] before:top-[50%] before:left-0 pl-24 text-2xl before:translate-y-[-50%] text-center w-fit m-auto max-sm:before:w-16 max-sm:pl-20'>RECENT NEWS FORM BLOG</p>
 
         <div className='text-6xl font-semibold leading-[70px] mt-5 mb-20 text-center max-lg:text-5xl max-lg:leading-[50px] max-sm:text-3xl'>
           <h1>GYM TIPS NEWS FOR YOU</h1>

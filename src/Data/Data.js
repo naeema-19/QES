@@ -51,6 +51,24 @@ export const services = [
         btnIcon:<AiOutlineArrowRight />
     }
 ]
+export const visionAndMission = [
+    {
+      icon:<BiTimeFive />,
+      label: "Our Vision",
+      desc: `QES vision is to be a leading local service company providing 
+  cementing, new technologies, and other related services to oil and gas operators in Oman by consistently achieving targets beyond expectations. 
+  In addition, to develop processes, standards, and management systems to ensure consistency in service delivery and wellbeing for our employees and supply well integrity packages to the customers/suppliers.`,
+    },
+    {
+      icon:<BiTimeFive />,
+      label: "Our Mission",
+      desc: `Our mission is to invest, develop, build and spend from Oman 
+  and in Oman, in order to lead in-country value. In addition, achieving customer objectives with zero NPT, zero HSE, and zero SQ issues. 
+  
+  QES is committed to supporting local universities by providing yearly internships for their students and projects. Also providing cementing technical training to clients. 
+  QES has the capability of performing independently in diagnostic and post-job testing for customers.`,
+    },
+  ]  
 
 
 export const client = [
