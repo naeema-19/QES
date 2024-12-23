@@ -35,7 +35,7 @@ const Footer = ({nav}) => {
           </a>
 
           <p className=' mt-5 font text-start'>
-            GThe trade war currently ensuing between te US anfd several natxions around thdhe globe, most fiercely with.
+          Powering Excellence in Cementing Services with Local Expertise and Global Innovation.
           </p>
 
           <div className=' flex items-center gap-6 cursor-pointer text-2xl mt-[35px] text-slate-200 max-sm:text-xl'>

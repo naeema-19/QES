@@ -2,16 +2,15 @@ import React, { useState } from 'react'
 import Nav from './Components/Nav'
 import About from './Components/About'
 import Services from './Components/Services'
-import Client from './Components/Client'
 import Gallery from './Components/Gallery'
 import TeamMembers from './Components/TeamMembers'
 import Offer from './Components/Offer'
-import TimeSchedule from './Components/TimeSchedule'
 import Contact from './Components/Contact'
 import Blog from './Components/Blog'
 import Footer from './Components/Footer'
 import HeroSection from './Components/HeroSection'
 import VisionMission from './Components/VisionMission'
+import Whowe from './Components/Whowe'
 
 const App = () => {
 
@@ -34,12 +33,12 @@ const App = () => {
         <HeroSection />
         <About />
         <VisionMission />
-        <Client />
+        <Whowe />
+        {/*<Client />*/}
         <Services />
         <Gallery />
         <TeamMembers />
         <Offer />
-        <TimeSchedule />
         <Contact />
         <Blog />
         <Footer nav={nav}/>

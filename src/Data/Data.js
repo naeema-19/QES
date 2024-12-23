@@ -1,20 +1,24 @@
 import {CiDumbbell} from "react-icons/ci"
 import {BsHeartPulse} from "react-icons/bs"
-import {BiTimeFive} from "react-icons/bi"
+import {BiSolidBullseye} from "react-icons/bi"
 import {AiOutlineArrowRight} from "react-icons/ai"
+import {BiBulb} from "react-icons/bi"
 
-import img1 from "../assets/img-8.jpg"
-import img2 from "../assets/img-9.jpg"
-import img3 from "../assets/img-10.jpg"
-import img4 from "../assets/img-11.jpg"
-import img5 from "../assets/img-12.jpg"
+import img1 from "../assets/dummy.jpg"
+import img2 from "../assets/dummy.jpg"
+import img3 from "../assets/dummy.jpg"
+import img4 from "../assets/dummy.jpg"
+import img5 from "../assets/dummy.jpg"
 
-import img6 from "../assets/img-7.jpg"
-import img7 from "../assets/img-15.jpg"
-import img8 from "../assets/img-9.jpg"
+import img6 from "../assets/dummy.jpg"
+import img7 from "../assets/dummy.jpg"
+import img8 from "../assets/dummy.jpg"
 
-import img9 from "../assets/img-20.jpg"
-import img10 from "../assets/img-21.jpg"
+import img9 from "../assets/dummy.jpg"
+import img10 from "../assets/dummy.jpg"
+import pillar from "../assets/pillar.png"
+import who from "../assets/who.jpeg"
+import whoare from "../assets/whoare.jpg"
 
 
 
@@ -44,7 +48,7 @@ export const services = [
         btnIcon:<AiOutlineArrowRight />
     },
     {
-        icon:<BiTimeFive />,
+        icon:<BiSolidBullseye />,
         label:"GYM STRATEGIES",
         desc:"The sea freight service has grown consider ably in recent years. We spend timetting to kn.",
         btnDec:"DISCOVER MORE ABOUT US",
@@ -53,14 +57,14 @@ export const services = [
 ]
 export const visionAndMission = [
     {
-      icon:<BiTimeFive />,
+      icon:<BiBulb />,
       label: "Our Vision",
       desc: `QES vision is to be a leading local service company providing 
   cementing, new technologies, and other related services to oil and gas operators in Oman by consistently achieving targets beyond expectations. 
   In addition, to develop processes, standards, and management systems to ensure consistency in service delivery and wellbeing for our employees and supply well integrity packages to the customers/suppliers.`,
     },
     {
-      icon:<BiTimeFive />,
+      icon:<BiSolidBullseye />,
       label: "Our Mission",
       desc: `Our mission is to invest, develop, build and spend from Oman 
   and in Oman, in order to lead in-country value. In addition, achieving customer objectives with zero NPT, zero HSE, and zero SQ issues. 
@@ -103,6 +107,26 @@ export const client = [
         clientName:"Dravid"
     }
 ]
+export const whowe = [
+    {
+        id:1,
+        head : "Who are We",
+        desc:'Qurum Enterprise Oil & Gas Services (QES), founded in 2012 by visionary Omani leaders, specializes in cementing operations with international standards. Focused on performance, quality, and innovation, QES leverages local expertise to build strategic partnerships. Safety is a core value, ensuring the well-being of people and the environment through 24/7 commitment to best practices.',
+        img:whoare,
+    },
+    {
+        id:2,
+        head : "QES Pillars",
+        desc:"QES believes the success is build based on its proper management, experienced people and right technology",
+        img:pillar,
+    },
+    {
+        id:3,
+        head : "QES Objectives",
+        desc:'QES is committed to developing robust processes, standards, and management systems to ensure consistent service delivery and the well-being of employees, customers, and suppliers. Proudly 100% Omani-owned, with over 95% Omanisation at inception, QES collaborates with local companies rather than competing. The company strives to achieve customer objectives with zero NPT, HSE, or SQ issues and offers independent diagnostic and post-job testing for multiple vendors.',
+        img:who,
+    }
+]
 
 export const teamMembers =[
     {
@@ -126,13 +150,13 @@ export const blog = [
     {   img:img9,
         date:"19",
         role:"Creative director",
-        desc:"Footprints in Time is perfect House in Kurashiki"
+        desc:"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.."
     },
     {
         img:img10,
         date:"27",
         role:"Creative director",
-        desc:"Footprints in Time is perfect House in Kurashiki"
+        desc:"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.."
     }
 ]
 

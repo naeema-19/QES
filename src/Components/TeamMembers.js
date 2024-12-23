@@ -12,7 +12,7 @@ const TeamMembers = () => {
       <div className=' max-container padding-hero-y padding-x'>
         <div  className='flex justify-between items-end mb-28 max-md:flex-col max-md:items-start max-md:gap-5 max-md:mb-20'>
           <div>
-            <p className=' text-[#376c35] relative before:absolute before:w-20 before:h-1 before:bg-[#376c35] before:top-[50%] before:left-0 pl-24 text-2xl before:translate-y-[-50%]'>OUR TEAM MEMBERS</p>
+            <p className=' text-[#35c42f] relative before:absolute before:w-20 before:h-1 before:bg-[#35c42f] before:top-[50%] before:left-0 pl-24 text-2xl before:translate-y-[-50%]'>OUR TEAM MEMBERS</p>
             <div className=' text-6xl text-black mt-8 leading-[60px] font-semibold max-sm:text-3xl'>
               <h1>OUR MOST EXPERIENCE</h1>
               <h1>TRAINERS</h1>
@@ -33,7 +33,7 @@ const TeamMembers = () => {
                 <img src={val.img} alt="TeamMembers" className=' h-full object-cover max-sm:h-[65vh]'/>
 
                 <div className='absolute bottom-[-50px] duration-[.4s] group-hover:bottom-0 left-0 w-full group-hover:bg-[red] p-7 pb-8'>
-                  <p className=' font mb-2 text-gray-300 relative before:absolute before:w-10 before:h-1 before:bg-[#376c35] before:top-[50%] before:left-0 pl-14 text-lg before:translate-y-[-50%] group-hover:text-white group-hover:before:bg-white'>{val.role}</p>
+                  <p className=' font mb-2 text-gray-300 relative before:absolute before:w-10 before:h-1 before:bg-[#35c42f] before:top-[50%] before:left-0 pl-14 text-lg before:translate-y-[-50%] group-hover:text-white group-hover:before:bg-white'>{val.role}</p>
                   <h1 className='font text-xl font-semibold text-white'>{val.name}</h1>
 
                   <div className=' flex items-center gap-6 text-lg mt-[27px] text-white'>

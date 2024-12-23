@@ -9,7 +9,7 @@ const Nav = ({nav}) => {
   const [openNav,setOpenNav] = useState(false)
 
   return (
-    <header className={`w-full ${nav ? "fixed bg-black duration-300 top-0 left-0 z-30" : "absolute"}`}>
+    <header className={`w-full ${nav ? "fixed bg-[#2727277f] duration-300 top-0 left-0 z-30" : "absolute"}`}>
       <nav className='max-w-[1540px] m-auto py-6 px-6 max-lg:px-12 flex justify-between items-center gap-14 max-xl:gap-5 max-sm:py-4 max-sm:px-6'>
         <a href="#home" className=' font-semibold text-5xl flex justify-center items-center text-white gap-1'>
           <img src={logo} alt="logo" width={60}/>
