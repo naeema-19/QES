@@ -4,12 +4,11 @@ export default function Document() {
   return (
     <Html lang="en">
       <title>Qurum Enterprise Oil & Gas Services L.L.C</title>
+      <meta charSet="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
         <meta content="" name="keywords" />
         <meta content="" name="description" />
        <Head>
-      <meta charSet="utf-8" />
-        
         <link rel="icon" href="/favicon.ico" sizes="any" />
         {/* Google Web Fonts */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />

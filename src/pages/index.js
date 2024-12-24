@@ -8,16 +8,22 @@ import Service from "./components/Service";
 import FAQs from "./components/FAQs";
 import Blog from "./components/Blog";
 import Team from "./components/Team";
+import Head from 'next/head'
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <>
+    <div>
+      <Head>
+        <title>Qurum Enterprise Oil & Gas Services L.L.C.</title>
+      </Head>
+    </div>
     <div className="d-block">
      <Slider/>
+     <About/>
      <Features/>
-      <About/>
       <Service/>
       <FAQs/>
       <Blog/>

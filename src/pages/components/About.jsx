@@ -11,28 +11,24 @@ export default function About() {
             <div className="about-item-content bg-white rounded p-5 h-100">
               <h4 className="text-primary">About Our Company</h4>
               <h1 className="display-4 mb-4">
-                High Range of Exploring Protection
+              About Us
               </h1>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt
-                debitis sint tempora. Corporis consequatur illo blanditiis
-                voluptates aperiam quos aliquam totam aliquid rem explicabo,
+              Qurum Enterprise Oil & Gas Services (QES), established in 2012 by motivated Omani leaders, specializes in cementing operations with a focus on performance, quality, and innovation. Backed by highly skilled local experts, QES aims to build strategic partnerships rooted in technology and In-Country-Value. Safety is our core value and top priority, with a 24/7 commitment to protecting our people and the environment through rigorous policies and procedures.
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-                praesentium recusandae eligendi modi hic
+              QES believes the success is build based on its proper management, experienced people and right technology.</p>
+              <p className="text-dark">
+                <i className="fa fa-check text-primary me-3" />
+                People
               </p>
               <p className="text-dark">
                 <i className="fa fa-check text-primary me-3" />
-                We can save your money.
-              </p>
-              <p className="text-dark">
-                <i className="fa fa-check text-primary me-3" />
-                Production or trading of good
+                Management
               </p>
               <p className="text-dark mb-4">
                 <i className="fa fa-check text-primary me-3" />
-                Our life insurance is flexible
+                Technology
               </p>
               <a className="btn btn-primary rounded py-3 px-5" href="#">
                 More Information
@@ -45,7 +41,7 @@ export default function About() {
                 <div className="col-12">
                   <div className="rounded bg-light">
                     <img
-                      src="assets/img/about-1.png"
+                      src="assets/img/about.jpeg"
                       className="img-fluid rounded w-100"
                       alt=""
                     />
@@ -77,34 +73,6 @@ export default function About() {
                       <span className="h1 fw-bold text-primary">+</span>
                     </div>
                     <h4 className="mb-0 text-dark">Awards WON</h4>
-                  </div>
-                </div>
-                <div className="col-sm-6">
-                  <div className="counter-item bg-light rounded p-3 h-100">
-                    <div className="counter-counting">
-                      <span
-                        className="text-primary fs-2 fw-bold"
-                        data-toggle="counter-up"
-                      >
-                        556
-                      </span>
-                      <span className="h1 fw-bold text-primary">+</span>
-                    </div>
-                    <h4 className="mb-0 text-dark">Skilled Agents</h4>
-                  </div>
-                </div>
-                <div className="col-sm-6">
-                  <div className="counter-item bg-light rounded p-3 h-100">
-                    <div className="counter-counting">
-                      <span
-                        className="text-primary fs-2 fw-bold"
-                        data-toggle="counter-up"
-                      >
-                        967
-                      </span>
-                      <span className="h1 fw-bold text-primary">+</span>
-                    </div>
-                    <h4 className="mb-0 text-dark">Team Members</h4>
                   </div>
                 </div>
               </div>
