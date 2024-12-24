@@ -588,6 +588,7 @@
 
 .blog .blog-item:hover .blog-content {
     background: var(--main-bg);
+    color: #fff;
 }
 
 .blog .blog-item .blog-img {
