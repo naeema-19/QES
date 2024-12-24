@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 
 const themes = {
   default: {
-    mainbg: "#FFD1E3",
-    buttonColor: "#392467",
-    iconColor: "#A367B1",
+    mainbg: "#376734",
+    buttonColor: "#e14e25",
+    iconColor: "#f8971d",
   },
 
   lightweight: {

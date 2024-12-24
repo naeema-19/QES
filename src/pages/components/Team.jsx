@@ -20,7 +20,7 @@ export default function Team() {
       >
         <h4 className="text-primary">Our Team</h4>
         <h1 className="display-4 mb-4">Meet Our Expert Team Members</h1>
-        <p className="mb-0 theme-text ">
+        <p className="mb-0 text-white">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
           adipisci facilis cupiditate recusandae aperiam temporibus corporis
           itaque quis facere, numquam, ad culpa deserunt sint dolorem autem
@@ -67,8 +67,8 @@ export default function Team() {
               </div>
             </div>
             <div className="team-title p-4">
-              <h4 className="mb-0 theme-text ">David James</h4>
-              <p className="mb-0 theme-text ">Profession</p>
+              <h4 className="mb-0 text-white">David James</h4>
+              <p className="mb-0 text-white">Profession</p>
             </div>
           </div>
         </div>
@@ -111,8 +111,8 @@ export default function Team() {
               </div>
             </div>
             <div className="team-title p-4">
-              <h4 className="mb-0 theme-text ">David James</h4>
-              <p className="mb-0 theme-text ">Profession</p>
+              <h4 className="mb-0 text-white">David James</h4>
+              <p className="mb-0 text-white">Profession</p>
             </div>
           </div>
         </div>
@@ -155,8 +155,8 @@ export default function Team() {
               </div>
             </div>
             <div className="team-title p-4">
-              <h4 className="mb-0 theme-text ">David James</h4>
-              <p className="mb-0 theme-text ">Profession</p>
+              <h4 className="mb-0 text-white">David James</h4>
+              <p className="mb-0 text-white">Profession</p>
             </div>
           </div>
         </div>
@@ -199,8 +199,8 @@ export default function Team() {
               </div>
             </div>
             <div className="team-title p-4">
-              <h4 className="mb-0 theme-text ">David James</h4>
-              <p className="mb-0 theme-text ">Profession</p>
+              <h4 className="mb-0 text-white">David James</h4>
+              <p className="mb-0 text-white">Profession</p>
             </div>
           </div>
         </div>

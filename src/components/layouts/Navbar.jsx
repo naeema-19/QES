@@ -82,10 +82,10 @@ export default function Navbar() {
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light">
             <a href="#" className="navbar-brand p-0">
-              <h1 className=" mb-0 text-primary">
+              {/*<h1 className=" mb-0 text-primary">
                 <i className="fab fa-slack me-2" /> LifeSure
-              </h1>
-              {/* <img src="img/logo.png" alt="Logo"> */}
+              </h1>*/}
+               <img src="assets/img/qes-logo.png" alt="Logo" /> 
             </a>
             <button
               className="navbar-toggler"
