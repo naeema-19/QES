@@ -17,7 +17,7 @@ export default function Contact() {
           >
             <h4 className="text-primary">Contact Us</h4>
             <h1 className="display-4 mb-4">
-              If you have any comments please apply now
+              If you have any comments please Contact Us
             </h1>
           </div>
           <div className="row g-5">
@@ -38,7 +38,7 @@ export default function Contact() {
             <div className="col-xl-6 wow fadeInRight" data-wow-delay="0.4s">
               <div>
                 <h4 className="text-primary">Send Your Message</h4>
-                <p className="mb-4">
+                {/*<p className="mb-4">
                   The contact form is currently inactive. Get a functional and
                   working contact form with Ajax &amp; PHP in a few minutes. Just
                   copy and paste the files, add a little code and you&apos;re done.{" "}
@@ -49,7 +49,7 @@ export default function Contact() {
                     Download Now
                   </a>
                   .
-                </p>
+                </p>*/}
                 <form>
                   <div className="row g-3">
                     <div className="col-lg-12 col-xl-6">
@@ -74,7 +74,7 @@ export default function Contact() {
                         <label htmlFor="email">Your Email</label>
                       </div>
                     </div>
-                    <div className="col-lg-12 col-xl-6">
+                    <div className="col-lg-12 col-xl-12">
                       <div className="form-floating">
                         <input
                           type="phone"
@@ -82,10 +82,10 @@ export default function Contact() {
                           id="phone"
                           placeholder="Phone"
                         />
-                        <label htmlFor="phone">Your Phone</label>
+                        <label htmlFor="phone">Phone no with country code</label>
                       </div>
                     </div>
-                    <div className="col-lg-12 col-xl-6">
+                    {/*<div className="col-lg-12 col-xl-6">
                       <div className="form-floating">
                         <input
                           type="text"
@@ -95,7 +95,7 @@ export default function Contact() {
                         />
                         <label htmlFor="project">Your Project</label>
                       </div>
-                    </div>
+                    </div>*/}
                     <div className="col-12">
                       <div className="form-floating">
                         <input
@@ -131,7 +131,7 @@ export default function Contact() {
               <div>
                 <div className="row g-4">
                   <div
-                    className="col-md-6 col-lg-3 wow fadeInUp"
+                    className="col-md-6 col-lg-4 wow fadeInUp"
                     data-wow-delay="0.2s"
                   >
                     <div className="contact-add-item">
@@ -140,12 +140,12 @@ export default function Contact() {
                       </div>
                       <div>
                         <h4>Address</h4>
-                        <p className="mb-0">123 Street New York.USA</p>
+                        <p className="mb-0">Bait Al Reem Building, 1st Floor, <br></br>Al Khuwair, Ministry St <br></br>Muscat – Sultanate of Oman</p>
                       </div>
                     </div>
                   </div>
                   <div
-                    className="col-md-6 col-lg-3 wow fadeInUp"
+                    className="col-md-6 col-lg-4 wow fadeInUp"
                     data-wow-delay="0.4s"
                   >
                     <div className="contact-add-item">
@@ -159,7 +159,7 @@ export default function Contact() {
                     </div>
                   </div>
                   <div
-                    className="col-md-6 col-lg-3 wow fadeInUp"
+                    className="col-md-6 col-lg-4 wow fadeInUp"
                     data-wow-delay="0.6s"
                   >
                     <div className="contact-add-item">
@@ -167,22 +167,10 @@ export default function Contact() {
                         <i className="fa fa-phone-alt fa-2x" />
                       </div>
                       <div>
-                        <h4>Telephone</h4>
-                        <p className="mb-0">(+012) 3456 7890</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-md-6 col-lg-3 wow fadeInUp"
-                    data-wow-delay="0.8s"
-                  >
-                    <div className="contact-add-item">
-                      <div className="contact-icon text-primary mb-4">
-                        <i className="fab fa-firefox-browser fa-2x" />
-                      </div>
-                      <div>
-                        <h4>Yoursite@ex.com</h4>
-                        <p className="mb-0">(+012) 3456 7890</p>
+                        <h4>Contact</h4>
+                        <p className="mb-0">Tel: +968 2495 8606,
+                            <br></br>Fax: +968 2495 8966<br></br>Direct Contact:<br></br>
+                            Abdullah Al Fadhli / +968 97747691</p>
                       </div>
                     </div>
                   </div>

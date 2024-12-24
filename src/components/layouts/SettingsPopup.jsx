@@ -86,7 +86,7 @@ const SettingsPopup = () => {
   };
 
   return (
-    <div>
+    <div className="d-none">
       <style>
         {` 
                 .spin {

@@ -9,12 +9,12 @@ export default function Navbar() {
           <div className="row gx-0 align-items-center">
             <div className="col-lg-8 text-center text-lg-start mb-lg-0">
               <div className="d-flex flex-wrap">
-                <div className="border-end border-primary pe-3">
+                {/*<div className="border-end border-primary pe-3">
                   <a href="#" className="text-muted small">
                     <i className="fas fa-map-marker-alt text-primary me-2" />
                     Find A Location
                   </a>
-                </div>
+                </div>*/}
                 <div className="ps-3">
                   <a
                     href="mailto:example@gmail.com"
@@ -28,7 +28,7 @@ export default function Navbar() {
             </div>
             <div className="col-lg-4 text-center text-lg-end">
               <div className="d-flex justify-content-end">
-                <div className="d-flex border-end border-primary pe-3">
+                <div className="d-flex pe-3">
                   <a className="btn p-0 text-primary me-3" href="#">
                     <i className="fab fa-facebook-f" />
                   </a>
@@ -42,7 +42,7 @@ export default function Navbar() {
                     <i className="fab fa-linkedin-in" />
                   </a>
                 </div>
-                <div className="dropdown ms-3">
+                {/*<div className="dropdown ms-3">
                   <a
                     href="#"
                     className="dropdown-toggle text-dark"
@@ -70,7 +70,7 @@ export default function Navbar() {
                       Arabic
                     </a>
                   </div>
-                </div>
+                </div>*/}
               </div>
             </div>
           </div>
@@ -135,19 +135,19 @@ export default function Navbar() {
                 Contact
                 </Link>
                 <div className="nav-btn px-3">
-                  <button
+                  {/*<button
                     className="btn-search btn btn-primary btn-md-square rounded-circle flex-shrink-0"
                     data-bs-toggle="modal"
                     data-bs-target="#searchModal"
                   >
                     <i className="fas fa-search" />
-                  </button>
+                  </button>*/}
                   <a
                     href="#"
                     className="btn btn-primary rounded py-2 px-4 ms-3 flex-shrink-0"
                   >
                     {" "}
-                    Get a Quote
+                    Contact Us
                   </a>
                 </div>
               </div>
@@ -169,9 +169,9 @@ export default function Navbar() {
                 </div>
               </a>
               <div className="d-flex flex-column ms-3">
-                <span>Call to Our Experts</span>
+                <span>Call Us Directly</span>
                 <a href="tel:+ 0123 456 7890">
-                  <span className="text-dark">Free: + 0123 456 7890</span>
+                  <span className="text-dark">+968 97747691</span>
                 </a>
               </div>
             </div>
