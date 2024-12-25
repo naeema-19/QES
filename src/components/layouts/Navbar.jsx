@@ -123,20 +123,12 @@ export default function Navbar() {
                 Careers
                 </Link>
                 <div className="nav-btn px-3">
-                  {/*<button
-                    className="btn-search btn btn-primary btn-md-square rounded-circle flex-shrink-0"
-                    data-bs-toggle="modal"
-                    data-bs-target="#searchModal"
-                  >
-                    <i className="fas fa-search" />
-                  </button>*/}
-                  <a
+                  <Link
                     href="/contact"
                     className="btn btn-primary rounded py-2 px-4 ms-3 flex-shrink-0"
                   >
-                    {" "}
                     Contact Us
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

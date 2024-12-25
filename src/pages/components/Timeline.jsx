@@ -78,7 +78,7 @@ export default function QESJourney() {
           data-wow-delay="0.2s"
           style={{ maxWidth: 800 }}
         >
-          <h4 className="text-primary">Our Vision and Mission</h4>
+          <h4 className="text-primary">Our Journey</h4>
           <h1 className="display-4 mb-4">Our Vision and Mission</h1>
           <p className="mb-0"></p>
         </div>
