@@ -195,8 +195,4 @@ export default function Contact() {
     </>
   );
 }
-Contact.getInitialProps = async () => {
-  return {
-    pageTitle: "Contact Us", // Dynamically set the page title
-  };
-};
+

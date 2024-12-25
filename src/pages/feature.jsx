@@ -10,9 +10,5 @@ export default  function feature() {
     </>
   )
 }
-feature.getInitialProps = async () => {
-  return {
-    pageTitle: "Objectives", // Dynamically set the page title
-  };
-};
+
 
