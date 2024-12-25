@@ -11,24 +11,20 @@ export default function Service() {
           data-wow-delay="0.2s"
           style={{ maxWidth: 800 }}
         >
-          <h4 className="text-primary">Our Services</h4>
-          <h1 className="display-4 mb-4">We Provide Best Services</h1>
+          <h4 className="text-primary">Why choose us?</h4>
+          <h1 className="display-4 mb-4">Why choose us?</h1>
           <p className="mb-0">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
-            adipisci facilis cupiditate recusandae aperiam temporibus corporis
-            itaque quis facere, numquam, ad culpa deserunt sint dolorem autem
-            obcaecati, ipsam mollitia hic.
           </p>
         </div>
         <div className="row g-4 justify-content-center">
           <div
-            className="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+            className="col-md-6 col-lg-6 col-xl-4 wow fadeInUp"
             data-wow-delay="0.2s"
           >
             <div className="service-item">
               <div className="service-img">
                 <img
-                  src="assets/img/blog-1.png"
+                  src="assets/img/expert.png"
                   className="img-fluid rounded-top w-100"
                   alt=""
                 />
@@ -39,115 +35,126 @@ export default function Service() {
               <div className="service-content p-4">
                 <div className="service-content-inner">
                   <a href="#" className="d-inline-block h4 mb-4">
-                  13 3/8&quot; Casing Cementing
+                  Expertise
                   </a>
                   <p className="mb-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Perspiciatis, eum!
+                  Our team combines local knowledge with global expertise to deliver tailored solutions that meet your unique needs.
                   </p>
-                  <a className="btn btn-primary rounded py-2 px-4" href="#">
-                    Read More
-                  </a>
                 </div>
               </div>
             </div>
           </div>
           <div
-            className="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+            className="col-md-6 col-lg-6 col-xl-4 wow fadeInUp"
             data-wow-delay="0.4s"
           >
             <div className="service-item">
               <div className="service-img">
                 <img
-                  src="assets/img/blog-2.png"
+                  src="assets/img/performance.png"
                   className="img-fluid rounded-top w-100"
                   alt=""
                 />
                 <div className="service-icon p-3">
-                  <i className="fa fa-hospital fa-2x" />
+                  <i className="fa fa-arrow-up fa-2x" />
                 </div>
               </div>
               <div className="service-content p-4">
                 <div className="service-content-inner">
                   <a href="#" className="d-inline-block h4 mb-4">
-                  9 5/8&quot; Casing Cementing
+                  Performance
                   </a>
                   <p className="mb-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Perspiciatis, eum!
+                  We focus on enhancing operational efficiency while consistently delivering superior, high-quality results.
                   </p>
-                  <a className="btn btn-primary rounded py-2 px-4" href="#">
-                    Read More
-                  </a>
                 </div>
               </div>
             </div>
           </div>
           <div
-            className="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+            className="col-md-6 col-lg-6 col-xl-4 wow fadeInUp"
             data-wow-delay="0.6s"
           >
             <div className="service-item">
               <div className="service-img">
                 <img
-                  src="assets/img/blog-3.png"
+                  src="assets/img/tech.png"
                   className="img-fluid rounded-top w-100"
                   alt=""
                 />
                 <div className="service-icon p-3">
-                  <i className="fa fa-car fa-2x" />
+                  <i className="fa fa-laptop fa-2x" />
                 </div>
               </div>
               <div className="service-content p-4">
                 <div className="service-content-inner">
                   <a href="#" className="d-inline-block h4 mb-4">
-                  7&quot; Liner Cementing
+                  Technology
 
                   </a>
                   <p className="mb-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Perspiciatis, eum!
+                  We utilize state-of-the-art technology to offer innovative cementing solutions that maximize outcomes.
                   </p>
-                  <a className="btn btn-primary rounded py-2 px-4" href="#">
-                    Read More
-                  </a>
                 </div>
               </div>
             </div>
           </div>
           <div
-            className="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+            className="col-md-6 col-lg-6 col-xl-4 wow fadeInUp"
             data-wow-delay="0.8s"
           >
             <div className="service-item">
               <div className="service-img">
                 <img
-                  src="assets/img/blog-4.png"
+                  src="assets/img/chemicals.png"
                   className="img-fluid rounded-top w-100"
                   alt=""
                 />
                 <div className="service-icon p-3">
-                  <i className="fa fa-home fa-2x" />
+                  <i className="fa fa-flask fa-2x" />
                 </div>
               </div>
               <div className="service-content p-4">
                 <div className="service-content-inner">
                   <a href="#" className="d-inline-block h4 mb-4">
-                    Home Insurance
+                  Chemicals
                   </a>
                   <p className="mb-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Perspiciatis, eum!
+                  Our high-quality chemicals and rigorously tested slurries ensure optimal performance, meeting the highest industry standards.
                   </p>
-                  <a className="btn btn-primary rounded py-2 px-4" href="#">
-                    Read More
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col-md-6 col-lg-6 col-xl-4 wow fadeInUp"
+            data-wow-delay="0.8s"
+          >
+            <div className="service-item">
+              <div className="service-img">
+                <img
+                  src="assets/img/partner.png"
+                  className="img-fluid rounded-top w-100"
+                  alt=""
+                />
+                <div className="service-icon p-3">
+                  <i className="fa fa-calendar fa-2x" />
+                </div>
+              </div>
+              <div className="service-content p-4">
+                <div className="service-content-inner">
+                  <a href="#" className="d-inline-block h4 mb-4">
+                  Strategic Partnerships
                   </a>
+                  <p className="mb-4">
+                  We foster long-term collaborations built on trust, reliability, and mutual growth for sustained success.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
           <div className="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
-            <a className="btn btn-primary rounded py-3 px-5" href="#">
+            <a className="btn btn-primary rounded py-3 px-5" href="/services">
               More Services
             </a>
           </div>
