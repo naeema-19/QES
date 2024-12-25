@@ -153,11 +153,6 @@ export default function Service() {
               </div>
             </div>
           </div>
-          <div className="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
-            <a className="btn btn-primary rounded py-3 px-5" href="/services">
-              More Services
-            </a>
-          </div>
         </div>
       </div>
     </div>
