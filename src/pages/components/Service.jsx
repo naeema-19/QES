@@ -39,7 +39,7 @@ export default function Service() {
               <div className="service-content p-4">
                 <div className="service-content-inner">
                   <a href="#" className="d-inline-block h4 mb-4">
-                    Life Insurance
+                  13 3/8" Casing Cementing
                   </a>
                   <p className="mb-4">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -70,7 +70,7 @@ export default function Service() {
               <div className="service-content p-4">
                 <div className="service-content-inner">
                   <a href="#" className="d-inline-block h4 mb-4">
-                    Health Insurance
+                  9 5/8" Casing Cementing
                   </a>
                   <p className="mb-4">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -101,7 +101,7 @@ export default function Service() {
               <div className="service-content p-4">
                 <div className="service-content-inner">
                   <a href="#" className="d-inline-block h4 mb-4">
-                    Car Insurance
+                  7" Liner Cementing
                   </a>
                   <p className="mb-4">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -132,7 +132,7 @@ export default function Service() {
               <div className="service-content p-4">
                 <div className="service-content-inner">
                   <a href="#" className="d-inline-block h4 mb-4">
-                    Home Insurance
+                  7" Casing Cementing
                   </a>
                   <p className="mb-4">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.

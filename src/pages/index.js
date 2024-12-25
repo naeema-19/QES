@@ -9,6 +9,7 @@ import FAQs from "./components/FAQs";
 import Blog from "./components/Blog";
 import Team from "./components/Team";
 import Head from 'next/head'
+import VisionMission from "./components/VisionMission";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +24,7 @@ export default function Home() {
     <div className="d-block">
      <Slider/>
      <About/>
+     <VisionMission />
      <Features/>
       <Service/>
       <FAQs/>
