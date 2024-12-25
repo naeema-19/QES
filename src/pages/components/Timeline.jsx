@@ -79,7 +79,7 @@ export default function QESJourney() {
           style={{ maxWidth: 800 }}
         >
           <h4 className="text-primary">Our Journey</h4>
-          <h1 className="display-4 mb-4">Our Vision and Mission</h1>
+          <h1 className="display-4 mb-4">Our Journey</h1>
           <p className="mb-0"></p>
         </div>
         <div className="row g-4 justify-content-center">
