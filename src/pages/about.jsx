@@ -18,5 +18,10 @@ export default function about() {
   )
 }
 
+about.getInitialProps = async () => {
+  return {
+    pageTitle: "About Us", // Dynamically set the page title
+  };
+};
 
  

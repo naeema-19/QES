@@ -3,10 +3,17 @@ import '../styles/globals.css';
 import Layout from '@/components/layouts/Layout';
 import Script from 'next/script';
 
+const getPageTitle = (pageTitle) => {
+  const defaultTitle = "Qurum Enterprise Oil & Gas Services L.L.C.";
+  return pageTitle ? `${pageTitle} | ${defaultTitle}` : defaultTitle;
+};
+
 function MyApp({ Component, pageProps }) {
   return (
     <div >
-      <Head/>
+      <Head>
+        <title>{getPageTitle(pageProps.pageTitle)}</title>
+      </Head>
     <Layout>
   <Component {...pageProps} />
   </Layout>

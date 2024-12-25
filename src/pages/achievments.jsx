@@ -11,5 +11,9 @@ export default function achievements() {
   )
 }
 
-
+achievements.getInitialProps = async () => {
+    return {
+      pageTitle: "Achievements", // Dynamically set the page title
+    };
+  };
   
