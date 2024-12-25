@@ -122,6 +122,9 @@ export default function Navbar() {
                 <Link href="/career" className="nav-item nav-link">
                 Careers
                 </Link>
+                <Link href="/achievments" className="nav-item nav-link">
+                Gallery
+                </Link>
                 <div className="nav-btn px-3">
                   <Link
                     href="/contact"
