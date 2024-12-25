@@ -8,6 +8,7 @@ import Team from './components/Team'
 export default function about() {
   return (
    <>
+   
    <Banner page="About" header="About Us"/>
    <About/>
    <Features/>
@@ -16,5 +17,11 @@ export default function about() {
    </>
   )
 }
+
+about.getInitialProps = async () => {
+  return {
+    pageTitle: "About Us", // Dynamically set the page title
+  };
+};
 
  

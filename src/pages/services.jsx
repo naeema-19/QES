@@ -12,5 +12,10 @@ export default function services() {
    </>
   )
 }
+services.getInitialProps = async () => {
+  return {
+    pageTitle: "Services", // Dynamically set the page title
+  };
+};
 
  
