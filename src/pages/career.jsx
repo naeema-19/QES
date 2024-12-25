@@ -167,7 +167,7 @@ export default function Career() {
                           onChange={handleFileChange}
                           required
                         />
-                        <label htmlFor="file">Choose File</label>
+                        <label htmlFor="file">Choose File (Upload as pdf)</label>
                       </div>
                     </div>
                     <div className="col-12">
