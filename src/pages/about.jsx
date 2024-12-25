@@ -6,6 +6,7 @@ import Process from './components/Process'
 import ICVPlan from './components/ICVPlan'
 import VisionMission from './components/VisionMission'
 import Timeline from './components/Timeline'
+import Lab from './components/Lab'
 
 export default function about() {
   return (
@@ -18,6 +19,7 @@ export default function about() {
    <Process />
    <ICVPlan />
    <Timeline />
+   <Lab />
    </>
   )
 }
