@@ -345,7 +345,7 @@
 .bg-breadcrumb {
     position: relative;
     overflow: hidden;
-    background: linear-gradient(var(--main-bg), rgba(0, 0, 0, 0.2)), url(../img/bg-breadcrumb.jpg);
+    background: linear-gradient(var(--main-bg), rgba(0, 0, 0, 0.8)), url(../img/qurum_energy_services_cover.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
