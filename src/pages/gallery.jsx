@@ -4,21 +4,30 @@ import Banner from './components/Banner';
 const Gallery = () => {
   // Array of images with separate hover text for each
   const images = [
-    { src: 'assets/img/gallery/g (1).jpg', text: 'Beautiful Landscape 1' },
-    { src: 'assets/img/gallery/g (2).jpg', text: 'Beautiful Landscape 2' },
-    { src: 'assets/img/gallery/g (3).jpg', text: 'Beautiful Landscape 3' },
-    { src: 'assets/img/gallery/g (4).jpg', text: 'Beautiful Landscape 4' },
-    { src: 'assets/img/gallery/g (3).jpg', text: 'Beautiful Landscape 5' },
-    { src: 'assets/img/gallery/g (3).jpg', text: 'Beautiful Landscape 6' },
-    { src: 'assets/img/gallery/g (3).jpg', text: 'Beautiful Landscape 7' },
-    { src: 'assets/img/gallery/g (3).jpg', text: 'Beautiful Landscape 8' },
-    { src: 'assets/img/gallery/g (3).jpg', text: 'Beautiful Landscape 9' },
-    { src: 'assets/img/gallery/g (3).jpg', text: 'Beautiful Landscape 10' },
+    { src: 'assets/img/gallery/g (1).jpg', text: 'Honouring the employees' },
+    { src: 'assets/img/gallery/g (2).jpg', text: 'Honouring the employees' },
+    { src: 'assets/img/gallery/g (3).jpg', text: 'Honouring the employees' },
+    { src: 'assets/img/gallery/g (4).jpg', text: 'Honouring the employees' },
+  ];
+  const sites = [
+    { src: 'assets/img/gallery/one.jpg', text: 'Honouring the employees' },
+    { src: 'assets/img/gallery/two.jpg', text: 'Honouring the employees' },
+    { src: 'assets/img/gallery/three.jpg', text: 'Teamwork and Collaboration' },
+    { src: 'assets/img/gallery/four.jpg', text: 'Leadership in Action' },
+    { src: 'assets/img/gallery/five.jpg', text: 'Celebrating Success' },
+    { src: 'assets/img/gallery/six.jpg', text: 'Innovative Solutions' },
+    { src: 'assets/img/gallery/seven.jpg', text: 'Company Achievements' },
+    { src: 'assets/img/gallery/eight.jpg', text: 'Community Engagement' },
+    { src: 'assets/img/gallery/nine.jpg', text: 'Employee Wellness' },
+    { src: 'assets/img/gallery/ten.jpg', text: 'Award Ceremony' },
+    { src: 'assets/img/gallery/eleven.jpg', text: 'Company Milestones' },
+    { src: 'assets/img/gallery/twelve.jpg', text: 'Leadership Development' },
+    { src: 'assets/img/gallery/thirteen.jpg', text: 'Corporate Social Responsibility' }
   ];
 
   return (
     <>
-    <Banner page="Contact" header="Contact Us" />
+    <Banner page="Gallery"/>
     <div>
       <h1 className='display-4 mb-4' style={{ textAlign: 'center', margin: '20px 0' }}>Capturing Moments at QES</h1>
       <div className="gallery-container">
@@ -33,8 +42,25 @@ const Gallery = () => {
           </div>
         ))}
       </div>
+    </div>
+    <div>
+      <h1 className='display-4 mb-4' style={{ textAlign: 'center', margin: '20px 0' }}>Views From Site</h1>
+      <div className="gallery-container">
+        {sites.map((sites, index) => (
+          <div className="gallery-item" key={index}>
+            <div className="image-container">
+              <img src={sites.src} alt={`Gallery ${index + 1}`} />
+              <div className="overlay">
+                <div className="text">{sites.text}</div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
 
-      <style jsx>{`
+    
+    <style jsx>{`
         /* Gallery Container */
         .gallery-container {
           display: flex;
@@ -50,8 +76,8 @@ const Gallery = () => {
           overflow: hidden;
           border-radius: 8px;
           box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-          flex: 1 1 calc(33.333% - 16px); /* Default to 3 columns on large screens */
-          max-width: calc(33.333% - 16px); /* Ensure items don't overflow */
+          flex: 1 1 calc(25% - 16px); /* Default to 4 columns on large screens */
+          max-width: calc(25% - 16px); /* Ensure items don't overflow */
         }
 
         /* Image Container */
@@ -116,7 +142,6 @@ const Gallery = () => {
           }
         }
       `}</style>
-    </div>
     </>
   );
 };
