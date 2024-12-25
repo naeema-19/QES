@@ -2,6 +2,7 @@ import Head from 'next/head';
 import '../styles/globals.css';
 import Layout from '@/components/layouts/Layout';
 import Script from 'next/script';
+import "./components/Timeline.css";
 
 const getPageTitle = (pageTitle) => {
   const defaultTitle = "Qurum Enterprise Oil & Gas Services L.L.C.";

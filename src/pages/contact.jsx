@@ -25,7 +25,7 @@ export default function Contact() {
               <div className="contact-img d-flex justify-content-center">
                 <div className="contact-img-inner">
                   <Image
-                    src="/assets/img/contact-img.png"
+                    src="/assets/img/contact.png"
                     className="img-fluid w-100"
                     alt="Contact Image"
                     layout="responsive"

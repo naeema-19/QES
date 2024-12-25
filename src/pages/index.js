@@ -6,8 +6,8 @@ import Features from "./components/Features";
 import About from "./components/About";
 import Service from "./components/Service";
 import FAQs from "./components/FAQs";
-import Blog from "./components/Blog";
-import Team from "./components/Team";
+//import Blog from "./components/Blog";
+//import Team from "./components/Team";
 import Head from 'next/head'
 import VisionMission from "./components/VisionMission";
 
@@ -28,8 +28,8 @@ export default function Home() {
      <Features/>
       <Service/>
       <FAQs/>
-      <Blog/>
-      <Team/>
+      {/*<Blog/>
+      <Team/>*/}
      <Home_Owl/>
      </div>
     </>

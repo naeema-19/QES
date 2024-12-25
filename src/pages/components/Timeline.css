@@ -1,0 +1,129 @@
+/* QESJourney.css */
+.timeline-container {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+  }
+  
+  .timeline-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  
+  .timeline {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .timeline-line {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background-color: #f8971d;
+    transform: translateX(-50%);
+  }
+  
+  .timeline-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .timeline-item.even {
+    flex-direction: row;
+  }
+  
+  .timeline-item.odd {
+    flex-direction: row-reverse;
+  }
+  
+  .timeline-item img {
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .timeline-logo {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    background-color: #ffffff;
+    border: 4px solid #f8971d;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+  }
+  
+  .timeline-content {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 60px);
+    position: relative;
+  }
+  
+  .timeline-content h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #f8971d;
+    margin-bottom: 10px;
+  }
+  
+  .timeline-content h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #343a40;
+  }
+  
+  .timeline-content p {
+    font-size: 14px;
+    color: #6c757d;
+  }
+  
+  .timeline-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+  
+  .timeline-arrow.even {
+    border-width: 10px 15px 10px 0;
+    border-color: transparent #ffffff transparent transparent;
+    left: -15px;
+  }
+  
+  .timeline-arrow.odd {
+    border-width: 10px 0 10px 15px;
+    border-color: transparent transparent transparent #ffffff;
+    right: -15px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .timeline-item {
+      flex-direction: column !important;
+      align-items: flex-start;
+    }
+  
+    .timeline-content {
+      width: 100%;
+      margin-top: 20px;
+    }
+  
+    .timeline-arrow {
+      display: none;
+    }
+  }
+  

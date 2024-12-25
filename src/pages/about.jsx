@@ -5,6 +5,7 @@ import Features from './components/Features'
 import Process from './components/Process'
 import ICVPlan from './components/ICVPlan'
 import VisionMission from './components/VisionMission'
+import Timeline from './components/Timeline'
 
 export default function about() {
   return (
@@ -16,6 +17,7 @@ export default function about() {
    <Features/>
    <Process />
    <ICVPlan />
+   <Timeline />
    </>
   )
 }

@@ -100,39 +100,27 @@ export default function Navbar() {
                 <Link href="/" className="nav-item nav-link">
                   Home
                 </Link>
-                <Link href="/about" className="nav-item nav-link">
-                  About
-                </Link>
-                <Link href="/services" className="nav-item nav-link">
-                  Services
-                </Link>
-                <Link href="/blog" className="nav-item nav-link">
-                Blog
-                </Link>
                 <div className="nav-item dropdown">
                   <a href="#" className="nav-link" data-bs-toggle="dropdown">
-                    <span className="dropdown-toggle">Pages</span>
+                    <span className="dropdown-toggle">About</span>
                   </a>
                   <div className="dropdown-menu">
-                  <Link href="/feature" className="dropdown-item">
-                  Our Features
+                  <Link href="/about" className="dropdown-item">
+                  About Us
                 </Link>
-                <Link href="/team" className="dropdown-item">
+                <Link href="/achievments" className="dropdown-item">
                 Our team
-                </Link>
-                <Link href="/testimonial" className="dropdown-item">
-                Testimonial
-                </Link>
-                <Link href="/faqs" className="dropdown-item">
-                FAQs
-                </Link>
-                <Link href="*" className="dropdown-item">
-                404 Page
                 </Link>
                   </div>
                 </div>
-                <Link href="/contact" className="nav-item nav-link">
-                Contact
+                <Link href="/services" className="nav-item nav-link">
+                  Services
+                </Link>
+                <Link href="/achievments" className="nav-item nav-link">
+                Achievements
+                </Link>
+                <Link href="/career" className="nav-item nav-link">
+                Careers
                 </Link>
                 <div className="nav-btn px-3">
                   {/*<button
@@ -143,7 +131,7 @@ export default function Navbar() {
                     <i className="fas fa-search" />
                   </button>*/}
                   <a
-                    href="#"
+                    href="/contact"
                     className="btn btn-primary rounded py-2 px-4 ms-3 flex-shrink-0"
                   >
                     {" "}

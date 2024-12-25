@@ -53,12 +53,6 @@ const StaticContent = () => {
                 className="btn btn-primary rounded py-3 px-4 px-md-5 ms-2"
                 href="#"
               >
-                Watch Video
-              </a>
-              <a
-                className="btn btn-primary rounded py-3 px-4 px-md-5 ms-2"
-                href="#"
-              >
                 Learn More
               </a>
             </div>
