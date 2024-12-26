@@ -78,7 +78,7 @@ export default function Career() {
 
   return (
     <>
-      <Banner page="Contact" header="Contact Us" />
+      <Banner page="Careers" header="Careers" />
 
       {/* Contact Start */}
       <div className="container-fluid contact bg-light py-5">

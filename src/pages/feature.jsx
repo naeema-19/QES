@@ -5,7 +5,7 @@ import Features from './components/Features'
 export default  function feature() {
   return (
     <>
-     <Banner page="Feature" header="Our Features"/>
+     <Banner page="Objectives" header="Our Objectives"/>
      <Features/>
     </>
   )

@@ -59,7 +59,7 @@ export default function Contact() {
 
   return (
     <>
-      <Banner page="Contact" header="Contact Us" />
+      <Banner page="Contact Us" header="Contact Us" />
       <div className="container-fluid contact bg-light py-5">
         <div className="container py-5">
           <div className="text-center mx-auto pb-5" style={{ maxWidth: 800 }}>

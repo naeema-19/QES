@@ -10,19 +10,19 @@ const Gallery = () => {
     { src: 'assets/img/gallery/g (4).jpg', text: 'Honouring the employees' },
   ];
   const sites = [
-    { src: 'assets/img/gallery/one.jpg', text: 'Honouring the employees' },
-    { src: 'assets/img/gallery/two.jpg', text: 'Honouring the employees' },
-    { src: 'assets/img/gallery/three.jpg', text: 'Teamwork and Collaboration' },
-    { src: 'assets/img/gallery/four.jpg', text: 'Leadership in Action' },
-    { src: 'assets/img/gallery/five.jpg', text: 'Celebrating Success' },
-    { src: 'assets/img/gallery/six.jpg', text: 'Innovative Solutions' },
-    { src: 'assets/img/gallery/seven.jpg', text: 'Company Achievements' },
-    { src: 'assets/img/gallery/eight.jpg', text: 'Community Engagement' },
-    { src: 'assets/img/gallery/nine.jpg', text: 'Employee Wellness' },
-    { src: 'assets/img/gallery/ten.jpg', text: 'Award Ceremony' },
-    { src: 'assets/img/gallery/eleven.jpg', text: 'Company Milestones' },
-    { src: 'assets/img/gallery/twelve.jpg', text: 'Leadership Development' },
-    { src: 'assets/img/gallery/thirteen.jpg', text: 'Corporate Social Responsibility' }
+    { src: 'assets/img/gallery/one.jpg', text: 'Machineries' },
+    { src: 'assets/img/gallery/two.jpg', text: 'Machineries' },
+    { src: 'assets/img/gallery/three.jpg', text: 'Teamwork' },
+    { src: 'assets/img/gallery/four.jpg', text: 'Machineries' },
+    { src: 'assets/img/gallery/five.jpg', text: 'Visit at Lab' },
+    { src: 'assets/img/gallery/six.jpg', text: 'Crew' },
+    { src: 'assets/img/gallery/seven.jpg', text: 'Crew' },
+    { src: 'assets/img/gallery/eight.jpg', text: 'Machineries' },
+    { src: 'assets/img/gallery/nine.jpg', text: 'Machineries' },
+    { src: 'assets/img/gallery/ten.jpg', text: 'Machineries' },
+    { src: 'assets/img/gallery/eleven.jpg', text: 'Crew' },
+    { src: 'assets/img/gallery/twelve.jpg', text: 'Total View' },
+    { src: 'assets/img/gallery/thirteen.jpg', text: 'Crew' }
   ];
 
   return (
