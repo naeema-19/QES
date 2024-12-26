@@ -24,9 +24,7 @@ export default function Lab() {
             </div>
             <div className="col-xl-12 wow fadeInLeft" data-wow-delay="0.2s">
               {/* Responsive Gallery */}
-        <div className="container-fluid team pb-5">
-          <div className="container">
-            <div className="row g-4">
+              <div className="row g-4 text-center justify-content-evenly">
               {[
                 { src: "assets/img/qes3.png", label: "Equipments in Lab" },
                 { src: "assets/img/qes4.png", label: "Work in Lab" },
@@ -38,14 +36,14 @@ export default function Lab() {
               ].map((item, index) => (
                 <div
                   key={index}
-                  className="col-12 col-sm-6 col-md-4 col-lg-3 wow fadeInUp"
+                  className="col-12 col-sm-6 col-md-4 col-lg-3 col-lg-3 wow fadeInUp"
                   data-wow-delay="0.2s"
                 >
                   <div className="team-item">
                     <div className="team-img position-relative">
                       <img
                         src={item.src}
-                        className="img-fluid rounded"
+                        className="img-fluid rounded-top"
                         alt={item.label}
                       />
                       <div className="team-title p-3 bg-dark bg-opacity-75 text-white text-center rounded-bottom">
@@ -56,8 +54,6 @@ export default function Lab() {
                 </div>
               ))}
             </div>
-          </div>
-        </div>
 
             </div>
           </div>

@@ -5,7 +5,7 @@ export default function Achievements() {
     <div className="container-fluid py-5" style={{ background: "#f8f9fa" }}>
       <div className="container">
         <h2 className="text-center mb-5 text-uppercase text-primary">
-          QES Achievements
+        QES ICV Plan
         </h2>
         <h4 className="text-center text-2xl mb-20">
           QES focus on improving ICV plans, and below are some future projects for QES:

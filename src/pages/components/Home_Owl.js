@@ -23,26 +23,26 @@ const Home_Owl = () => {
             animateIn: "fadeIn",
             navText: [
               '<i class="bi bi-arrow-right"></i>',
-              '<i class="bi bi-arrow-left"></i>'
+              '<i class="bi bi-arrow-left"></i>',
             ],
-responsiveClass: true,
+            responsiveClass: true,
             responsive: {
-                0:{
-                    items:1
-                },
-                576:{
-                    items:1
-                },
-                768:{
-                    items:1
-                },
-                992:{
-                    items:2
-                },
-                1200:{
-                    items:2
-                }
-            }
+              0: {
+                items: 1,
+              },
+              576: {
+                items: 1,
+              },
+              768: {
+                items: 1,
+              },
+              992: {
+                items: 3,
+              },
+              1200: {
+                items: 4,
+              },
+            },
           });
         });
       }
@@ -61,7 +61,7 @@ responsiveClass: true,
       </Head>
       <style>
         {`
-      .slider-carousel1 .owl-next{
+      .slider-carousel1 .owl-next {
           position: absolute !important;
           right: 0 !important;
           top: -58px !important;
@@ -70,17 +70,17 @@ responsiveClass: true,
           border-radius: 10px !important;
           padding: 5px 26px !important;
           transition: 0.5s !important;
-              font-size: 22px !important;
+          font-size: 22px !important;
         }  
-           .slider-carousel1 .owl-next i{
+      .slider-carousel1 .owl-next i {
            margin: 5px 26px !important;
-               font-weight: 900 !important;
-           }
-           .slider-carousel1 .owl-prev i{
-            margin: 5px 26px !important;
-                font-weight: 900 !important;
-           }
-      .slider-carousel1 .owl-prev{
+           font-weight: 900 !important;
+      }
+      .slider-carousel1 .owl-prev i {
+          margin: 5px 26px !important;
+          font-weight: 900 !important;
+      }
+      .slider-carousel1 .owl-prev {
           position: absolute !important;
           top: -58px !important;
           left: 0 !important;
@@ -89,112 +89,40 @@ responsiveClass: true,
           padding: 5px 26px !important;
           border-radius: 10px !important;
           transition: 0.5s !important;
-            font-size: 22px !important;
+          font-size: 22px !important;
         }  
         `}
       </style>
       <div className="container-fluid slider pb-5">
         <div className="container pb-5 d-block">
+              <h4 className="text-primary text-center">Our Cementing Services</h4>
+              <h1 className="display-4 mb-4 text-center">
+                  Services
+              </h1>
+        </div>
+      </div>
+      <div className="container-fluid slider pb-5">
+        <div className="container pb-5 d-block">
           <div className="owl-carousel slider-carousel1">
-            <div className="slider-item bg-light rounded me-4">
-              <div className="row g-0">
-                <div className="col-md-4 col-lg-4 col-xl-3">
-                  <div className="h-100">
-                    <img
-                      src="assets/img/testimonial-1.jpg"
-                      className="img-fluid h-100 rounded"
-                      style={{ objectFit: "cover" }}
-                      alt="Slide 1"
-                    />
-                  </div>
-                </div>
-
-                <div className="col-md-8 col-lg-8 col-xl-9">
-                  <div className="d-flex flex-column my-auto text-start p-4">
-                    <h4 className="text-dark mb-0">Client Name</h4>
-                    <p className="mb-3">Profession</p>
-                    <div className="d-flex text-primary mb-3">
-                      <i className="fas fa-star"></i>
-                      <i className="fas fa-star"></i>
-                      <i className="fas fa-star"></i>
-                      <i className="fas fa-star"></i>
-                      <i className="fas fa-star"></i>
-                    </div>
-                    <p className="mb-0">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Enim error molestiae aut modi corrupti fugit eaque rem
-                      nulla incidunt temporibus quisquam,
-                    </p>
-                  </div>
+            {[
+              "13 3/8\" Casing Cementing",
+              "9 5/8\" Casing Cementing",
+              "7\" Liner Cementing",
+              "7\" Casing Cementing",
+              "Abandonment Plugs",
+              "Kick Off Plugs (KOP)",
+              "Tieback",
+              "And more...",
+            ].map((service, index) => (
+              <div key={index} className="slider-item bg-light rounded me-4">
+                <div className="p-4 text-start">
+                  <h4 className="text-dark mb-0">{service}</h4>
+                  <p className="mb-3">
+                    
+                  </p>
                 </div>
               </div>
-            </div>
-            <div className="slider-item bg-light rounded me-4">
-              <div className="row g-0">
-                <div className="col-md-4 col-lg-4 col-xl-3">
-                  <div className="h-100">
-                    <img
-                      src="assets/img/testimonial-2.jpg"
-                      className="img-fluid h-100 rounded"
-                      style={{ objectFit: "cover" }}
-                      alt="Slide 1"
-                    />
-                  </div>
-                </div>
-
-                <div className="col-md-8 col-lg-8 col-xl-9">
-                  <div className="d-flex flex-column my-auto text-start p-4">
-                    <h4 className="text-dark mb-0">Client Name</h4>
-                    <p className="mb-3">Profession</p>
-                    <div className="d-flex text-primary mb-3">
-                      <i className="fas fa-star"></i>
-                      <i className="fas fa-star"></i>
-                      <i className="fas fa-star"></i>
-                      <i className="fas fa-star"></i>
-                      <i className="fas fa-star text-body"></i>
-                    </div>
-                    <p className="mb-0">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Enim error molestiae aut modi corrupti fugit eaque rem
-                      nulla incidunt temporibus quisquam,
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="slider-item bg-light rounded me-4">
-              <div className="row g-0">
-                <div className="col-md-4 col-lg-4 col-xl-3">
-                  <div className="h-100">
-                    <img
-                      src="assets/img/testimonial-3.jpg"
-                      className="img-fluid h-100 rounded"
-                      style={{ objectFit: "cover" }}
-                      alt="Slide 1"
-                    />
-                  </div>
-                </div>
-
-                <div className="col-md-8 col-lg-8 col-xl-9">
-                  <div className="d-flex flex-column my-auto text-start p-4">
-                    <h4 className="text-dark mb-0">Client Name</h4>
-                    <p className="mb-3">Profession</p>
-                    <div className="d-flex text-primary mb-3">
-                      <i className="fas fa-star"></i>
-                      <i className="fas fa-star"></i>
-                      <i className="fas fa-star"></i>
-                      <i className="fas fa-star"></i>
-                      <i className="fas fa-star text-body"></i>
-                    </div>
-                    <p className="mb-0">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Enim error molestiae aut modi corrupti fugit eaque rem
-                      nulla incidunt temporibus quisquam,
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>

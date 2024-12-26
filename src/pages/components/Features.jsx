@@ -30,11 +30,11 @@ export default function Features() {
               </div>
               <h4 className="mb-4">Trusted Service Delivery</h4>
               <p className="mb-4">
-              Develop processes, standards, and management systems to ensure consistent, high-quality service delivery while prioritizing the wellbeing of employees, customers, and suppliers.
+              Design robust processes, standards, and systems to deliver consistent, top-quality services while ensuring the health, safety, and satisfaction of employees, customers, and suppliers.
               </p>
-              <a className="btn btn-primary rounded py-2 px-4" href="#">
+              {/*<a className="btn btn-primary rounded py-2 px-4" href="#">
                 Learn More
-              </a>
+              </a>*/}
             </div>
           </div>
           <div
@@ -47,11 +47,11 @@ export default function Features() {
               </div>
               <h4 className="mb-4">Collaborative Approach</h4>
               <p className="mb-4">
-              Work alongside local companies rather than competing, fostering strong partnerships within the industry.
+              Partner with local companies to build strong, supportive relationships, creating a thriving industry environment instead of engaging in competition.
               </p>
-              <a className="btn btn-primary rounded py-2 px-4" href="#">
+              {/*<a className="btn btn-primary rounded py-2 px-4" href="#">
                 Learn More
-              </a>
+              </a>*/}
             </div>
           </div>
           <div
@@ -64,11 +64,11 @@ export default function Features() {
               </div>
               <h4 className="mb-4">Omanisation Leadership</h4>
               <p className="mb-4">
-              Target over 95% Omanisation from the start, with the company being 100% Omani-owned and committed to local empowerment.
+              Commit to achieving over 95% Omanisation from the outset, emphasizing 100% Omani ownership and a mission to empower local talent.
               </p>
-              <a className="btn btn-primary rounded py-2 px-4" href="#">
+              {/*<a className="btn btn-primary rounded py-2 px-4" href="#">
                 Learn More
-              </a>
+              </a>*/}
             </div>
           </div>
           <div
@@ -81,11 +81,11 @@ export default function Features() {
               </div>
               <h4 className="mb-4">Customer-Centric Goals</h4>
               <p className="mb-4">
-              Achieve customer objectives with zero Non-Productive Time (NPT), zero Health, Safety, and Environmental (HSE) incidents, and zero Service Quality (SQ) issues.
+              Focus on meeting customer objectives with zero downtime, zero safety incidents, and zero quality-related issues to ensure unmatched service.
               </p>
-              <a className="btn btn-primary rounded py-2 px-4" href="#">
+              {/*<a className="btn btn-primary rounded py-2 px-4" href="#">
                 Learn More
-              </a>
+              </a>*/}
             </div>
           </div>
           <div
@@ -98,11 +98,11 @@ export default function Features() {
               </div>
               <h4 className="mb-4">Advanced Diagnostics</h4>
               <p className="mb-4">
-              Independently perform diagnostic and post-job testing for customers, offering solutions across multiple vendors with precision and reliability.
+              Offer precise diagnostics and post-job analysis across vendors, delivering reliable, tailored solutions for customer challenges.
               </p>
-              <a className="btn btn-primary rounded py-2 px-4" href="#">
+              {/*<a className="btn btn-primary rounded py-2 px-4" href="#">
                 Learn More
-              </a>
+              </a>*/}
             </div>
           </div>
         </div>

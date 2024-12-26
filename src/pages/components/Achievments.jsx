@@ -117,6 +117,38 @@ export default function Achievements() {
       </div>
     </div>
   </div>
+ 
+      <div className="container pb-5">
+        <div className="row g-5">
+          <div className="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
+            <div className="about-item-content bg-white rounded p-5 h-100">
+              <h4 className="text-primary">Oxy Mukhaizna Trials</h4>
+              <h1 className="display-4 mb-4">
+              Oxy Mukhaizna Trials
+              </h1>
+              <p>
+              QES was the only local cementing company which was allowed to enter Mukhaizna steam field as it is very critical. QES have completed 3 successful wells trials with a very good cement bond log in production casings as per example
+              </p>
+            </div>
+          </div>
+          <div className="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
+            <div className="bg-white rounded p-5 h-100">
+              <div className="row g-4 justify-content-center">
+                <div className="col-12">
+                  <div className="rounded bg-light">
+                    <img
+                      src="assets/img/oxy-mu.png"
+                      className="img-fluid rounded w-100"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
     </div>
   );
 };

@@ -19,9 +19,6 @@ export default function Banner({header,page}) {
         <li className="breadcrumb-item">
           <Link href="/">Home</Link>
         </li>
-        <li className="breadcrumb-item">
-          <Link href="/about">Pages</Link>
-        </li>
         <li className="breadcrumb-item active text-primary">{page}</li>
       </ol>
     </div>
