@@ -89,6 +89,18 @@ export default function Footer() {
                   </div>
                 </div>
               </div>
+              <div
+                className="text-center pt-4 py-4"
+                style={{
+                  borderTop: '1px solid rgba(255, 255, 255, 0.08)',
+                  marginTop: '20px',
+                }}
+              >
+                <p className="mb-0 text-white">
+                  &copy; {new Date().getFullYear()} Qurum Enterprise Oil & Gas
+                  Services L.L.C. All rights reserved.
+                </p>
+              </div>
             </div>
           </div>
         </div>
