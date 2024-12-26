@@ -17,9 +17,9 @@ export default function Navbar() {
             <div className="col-lg-8 text-center text-lg-start mb-lg-0">
               <div className="d-flex flex-wrap">
                 <div className="ps-3">
-                  <a href="mailto:example@gmail.com" className="text-muted small">
+                  <a href="mailto:info@qurum-ogs.com" className="text-muted small">
                     <i className="fas fa-envelope text-primary me-2" />
-                    example@gmail.com
+                    info@qurum-ogs.com
                   </a>
                 </div>
               </div>
@@ -153,7 +153,7 @@ export default function Navbar() {
               <div className="d-flex flex-column ms-3">
                 <span>Call Us Directly</span>
                 <a href="tel:+96897747691">
-                  <span className="text-dark">+968 97747691</span>
+                  <span className="text-dark">+968 95661040</span>
                 </a>
               </div>
             </div>

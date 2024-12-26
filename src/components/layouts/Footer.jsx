@@ -68,7 +68,9 @@ export default function Footer() {
                           </div>
                           <div>
                             <h4 className="text-white">Mail Us</h4>
-                            <p className="text-white mb-0">info@example.com</p>
+                            <p className="text-white mb-0"><a href="mailto:info@qurum-ogs.com" className="text-white">
+                          info@qurum-ogs.com</a>
+                          </p>
                           </div>
                         </div>
                       </div>
@@ -79,9 +81,7 @@ export default function Footer() {
                           </div>
                           <div>
                             <h4 className="text-white">Contact</h4>
-                            <p className="text-white mb-0">Tel: +968 2495 8606,
-                            <br></br>Fax: +968 2495 8966<br></br>Direct Contact:<br></br>
-                            Abdullah Al Fadhli / +968 97747691</p>
+                            <p className="text-white mb-0">+968 95661040</p>
                           </div>
                         </div>
                       </div>
