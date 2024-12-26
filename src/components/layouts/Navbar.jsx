@@ -100,7 +100,14 @@ export default function Navbar() {
                       className="dropdown-item"
                       onClick={closeNavbar}
                     >
-                      Our Team
+                      Omnaization
+                    </Link>
+                    <Link
+                      href="/achievments"
+                      className="dropdown-item"
+                      onClick={closeNavbar}
+                    >
+                      HSE
                     </Link>
                   </div>
                 </div>
