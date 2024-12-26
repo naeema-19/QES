@@ -58,7 +58,7 @@ export default function About() {
                       </span>
                       <span className="h1 fw-bold text-primary">+</span>
                     </div>
-                    <h4 className="mb-0 text-dark">Insurance Policies</h4>
+                    <h4 className="mb-0 text-dark">Projects Served</h4>
                   </div>
                 </div>
                 <div className="col-sm-6">

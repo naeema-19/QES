@@ -27,8 +27,8 @@ export default function Home() {
      <VisionMission />
      <Features/>
       <Service/>
-      <FAQs/>
-      {/*<Blog/>
+      {/*<FAQs/>
+      <Blog/>
       <Team/>*/}
      <Home_Owl/>
      </div>

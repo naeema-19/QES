@@ -879,6 +879,17 @@
 .footer .footer-item .footer-btn a:hover i {
     color: var(--bs-white);
 }
+.footer .footer-item .footer-btn a:hover svg {
+    color: var(--bs-white);
+}
+.icon-size {
+    width: 1em; /* Adjust to match font size of the icons */
+    height: 1em;
+    display: inline-block;
+    vertical-align: middle;
+    fill: currentColor; /* Match the color of the i icons */
+  }
+  
 /*** Footer End ***/
 
 
