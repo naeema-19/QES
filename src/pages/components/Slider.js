@@ -45,8 +45,7 @@ const StaticContent = () => {
               Qurum Enterprise Oil & Gas Services L.L.C.
             </h1>
             <p className="mb-5 text-white fs-5">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry&apos;s standard dummy...
+            Local Expertise, Global Experience
             </p>
             <div className="d-flex justify-content-center flex-shrink-0 mb-4">
               <a

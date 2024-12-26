@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link';
 
 export default function About() {
   return (
@@ -30,9 +31,11 @@ export default function About() {
                 <i className="fa fa-check text-primary me-3" />
                 Technology
               </p>
-              <a className="btn btn-primary rounded py-3 px-5" href="#">
-                More Information
-              </a>
+              <Link href="/about" passHref>
+                <button className="btn btn-primary rounded py-3 px-5">
+                  More Information
+                </button>
+              </Link>
             </div>
           </div>
           <div className="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
