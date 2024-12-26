@@ -81,7 +81,8 @@ export default function Footer() {
                           </div>
                           <div>
                             <h4 className="text-white">Contact</h4>
-                            <p className="text-white mb-0">+968 95661040</p>
+                            <p className="text-white mb-0"><a href="mailto:+96895661040" className="text-white">
+                            +968 95661040</a></p>
                           </div>
                         </div>
                       </div>

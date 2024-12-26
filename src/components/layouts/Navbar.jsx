@@ -96,14 +96,14 @@ export default function Navbar() {
                       About Us
                     </Link>
                     <Link
-                      href="/achievments"
+                      href="/omanisation"
                       className="dropdown-item"
                       onClick={closeNavbar}
                     >
                       Omnaization
                     </Link>
                     <Link
-                      href="/achievments"
+                      href="/hse"
                       className="dropdown-item"
                       onClick={closeNavbar}
                     >
@@ -152,7 +152,7 @@ export default function Navbar() {
               </a>
               <div className="d-flex flex-column ms-3">
                 <span>Call Us Directly</span>
-                <a href="tel:+96897747691">
+                <a href="tel:+96895661040">
                   <span className="text-dark">+968 95661040</span>
                 </a>
               </div>

@@ -1,9 +1,11 @@
 import Link from 'next/link'
 import React from 'react'
+import Banner from './components/Banner'
 
 export default function Blog() {
   return (
     <>
+    <Banner page="Omanization" header="Omanization" />
   {/* Blog Start */}
   <div className="container-fluid blog py-5">
     <div className="container py-5">
