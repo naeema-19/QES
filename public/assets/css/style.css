@@ -981,10 +981,8 @@
     color: #6c757d;
     margin-bottom: 30px;
   }
-  
-  /* Table Wrapper */
-  .table-wrapper {
-    overflow-x: auto;
+/* Table Wrapper */
+.table-wrapper {
     margin-top: 20px;
   }
   
@@ -1024,6 +1022,47 @@
     background-color: #e3f2fd;
     color: #f8971d;
   }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .omanization-table thead {
+      display: none;
+    }
+  
+    .omanization-table tbody,
+    .omanization-table tr {
+      display: block;
+      width: 100%;
+    }
+  
+    .omanization-table td {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      text-align: left;
+      position: relative;
+      background-color: #f8f9fc;
+      border-bottom: 1px solid #e9ecef;
+    }
+  
+    .omanization-table td::before {
+      content: attr(data-label);
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #495057;
+      margin-right: 10px;
+    }
+  
+    .omanization-table tr:nth-child(even) td {
+      background-color: #e9ecef;
+    }
+  
+    .omanization-table tr:hover td {
+      background-color: #e3f2fd;
+      color: #f8971d;
+    }
+  }
+  
   
   /* First Column Styling */
   .first-column {
