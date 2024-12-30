@@ -113,7 +113,7 @@ export default function Process() {
         .step-title {
           font-size: 1.5rem;
           font-weight: bold;
-          color: #007bff;
+          color: #f8971d;
           margin-bottom: 10px;
         }
 
@@ -138,7 +138,7 @@ export default function Process() {
 
         ul li::before {
           content: "•";
-          color: #007bff;
+          color: #f8971d;
           font-weight: bold;
           margin-right: 8px;
         }
