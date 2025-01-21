@@ -6,6 +6,7 @@ export default function Document() {
       <title>Qurum Enterprise Oil & Gas Services L.L.C</title>
       <meta charSet="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta name="google-site-verification" content="NlrBXxeF2XfP8xrTdUGvwvxUnk_HALZb_y_4PamXFfI" />
         <meta content="" name="keywords" />
         <meta content="" name="description" />
        <Head>
