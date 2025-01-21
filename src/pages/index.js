@@ -19,6 +19,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Qurum Enterprise Oil & Gas Services L.L.C.</title>
+        <meta name="google-site-verification" content="NlrBXxeF2XfP8xrTdUGvwvxUnk_HALZb_y_4PamXFfI" />
       </Head>
     </div>
     <div className="d-block">
