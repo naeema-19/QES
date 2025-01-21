@@ -14,6 +14,7 @@ function MyApp({ Component, pageProps }) {
     <div >
       <Head>
         <title>{getPageTitle(pageProps.pageTitle)}</title>
+        <meta name="google-site-verification" content="NlrBXxeF2XfP8xrTdUGvwvxUnk_HALZb_y_4PamXFfI" />
       </Head>
     <Layout>
   <Component {...pageProps} />
