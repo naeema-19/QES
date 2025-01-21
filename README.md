@@ -1,1 +1,1 @@
-#Qurum Enterprise Oil & Gas Services L.L.C.
+Qurum Enterprise Oil & Gas Services L.L.C.
