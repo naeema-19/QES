@@ -100,7 +100,7 @@ export default function Navbar() {
                       className="dropdown-item"
                       onClick={closeNavbar}
                     >
-                      Omnaization
+                      Omanisation
                     </Link>
                     <Link
                       href="/hse"
