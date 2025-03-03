@@ -4,7 +4,7 @@ import Banner from "./components/Banner";
 export default function Blog() {
   return (
     <>
-    <Banner page="Omanization" header="Omanization" />
+    <Banner page="Omanisation" header="Omanisation" />
     <div className="container-fluid blog py-5">
       <div className="container py-5">
         <div
