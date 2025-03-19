@@ -3,6 +3,10 @@ import Banner from './components/Banner';
 // Gallery Component
 const Gallery = () => {
   // Array of images with separate hover text for each
+  const majorimages = [
+    { src: 'assets/img/gallery/batchmixerteam.jpg', text: 'Presenting new 200 bbl batch mixer in Daleel field on 26th Sep 2024' },
+    { src: 'assets/img/gallery/sqm-cced.jpg', text: 'SQM meeting with CCED and presenting new technology on 11th Feb 2025' },
+  ];
   const images = [
     { src: 'assets/img/gallery/g (1).jpg', text: 'Honouring the employees' },
     { src: 'assets/img/gallery/g (2).jpg', text: 'Honouring the employees' },
@@ -28,6 +32,21 @@ const Gallery = () => {
   return (
     <>
     <Banner page="Gallery"/>
+    <div>
+        <h1 className='display-4 mb-4' style={{ textAlign: 'center', margin: '20px 0' }}>Special Moments</h1>
+        <div className="gallery-container special-moments">
+          {majorimages.map((image, index) => (
+            <div className="gallery-item" key={index}>
+              <div className="image-container">
+                <img src={image.src} alt={`Gallery ${index + 1}`} />
+                <div className="overlay">
+                  <div className="text">{image.text}</div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
     <div>
       <h1 className='display-4 mb-4' style={{ textAlign: 'center', margin: '20px 0' }}>Capturing Moments at QES</h1>
       <div className="gallery-container">
@@ -69,7 +88,10 @@ const Gallery = () => {
           justify-content: center;
           padding: 16px;
         }
-
+        .special-moments .gallery-item {
+          flex: 1 1 calc(50% - 16px);
+          max-width: calc(50% - 16px);
+        }
         /* Individual Gallery Item */
         .gallery-item {
           position: relative;
@@ -138,6 +160,12 @@ const Gallery = () => {
         @media (max-width: 768px) {
           .gallery-item {
             flex: 1 1 calc(100% - 16px); /* 1 column on smaller screens */
+            max-width: calc(100% - 16px);
+          }
+        }
+        @media (max-width: 768px) {
+          .special-moments .gallery-item {
+            flex: 1 1 calc(100% - 16px);
             max-width: calc(100% - 16px);
           }
         }
